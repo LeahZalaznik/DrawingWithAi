@@ -12,9 +12,10 @@ Thumbs.db
 ########################
 #   .NET / C# backend  #
 ########################
+
 # תיקיות Build
-bin/
-obj/
+ai-drawing-server/bin/
+ai-drawing-server/obj/
 
 # קבצי משתמש
 *.user
@@ -22,30 +23,31 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# קבצים נוספים
-*.vs/
+# Visual Studio
+.vs/
 *.dbmdl
 *.log
 *.pdb
 
 ########################
-#   React / ai-drawing-studio     #
+#   React / Frontend   #
 ########################
-# node modules
-ai-drawing-studio/node_modules/
+
+# node_modules
+ai-drawing-client/node_modules/
 
 # Build output
-ai-drawing-studio/build/
-ai-drawing-studio/dist/
+ai-drawing-client/build/
+ai-drawing-client/dist/
 
-# קבצי לוג temporaries
-ai-drawing-studio/.env.local
-ai-drawing-studio/.env.development.local
-ai-drawing-studio/.env.test.local
-ai-drawing-studio/.env.production.local
+# קבצי סביבה
+ai-drawing-client/.env.local
+ai-drawing-client/.env.development.local
+ai-drawing-client/.env.test.local
+ai-drawing-client/.env.production.local
 
 # דוחות
-ai-drawing-studio/coverage/
-ai-drawing-studio/npm-debug.log*
-ai-drawing-studio/yarn-debug.log*
-ai-drawing-studio/yarn-error.log*
+ai-drawing-client/coverage/
+ai-drawing-client/npm-debug.log*
+ai-drawing-client/yarn-debug.log*
+ai-drawing-client/yarn-error.log*
